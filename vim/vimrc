@@ -18,6 +18,7 @@ map QF :q!<CR>
 map <C-a> ggVG
 map ol o<CR>
 map OL O<CR>
+map SQ :w<CR>:q<CR>
 
 " View
 syntax on
@@ -27,3 +28,20 @@ set wrap
 set showcmd
 set wildmenu
 set scrolloff=5
+
+" Syntax
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+set autoindent
+" set cindent
+set ruler
+inoremap ( ()<Esc>1i
+inoremap [ []<Esc>1i
+inoremap { {}<Esc>1i<CR><CR><Esc>ka
+inoremap < <><Esc>1i
+inoremap ' ''<Esc>1i
+inoremap " ""<Esc>1i
+
+" Search
+set hlsearch
