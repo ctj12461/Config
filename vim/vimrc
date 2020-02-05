@@ -6,8 +6,9 @@ noremap i k
 noremap j h
 noremap k j
 noremap h i
-noremap U 5k
-noremap M 5j
+noremap I 5k
+noremap K 5j
+noremap H I
 
 " Control
 map S :w<CR>
