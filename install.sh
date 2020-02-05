@@ -1,31 +1,29 @@
 #!/bin/bash
 # install.sh
 
-sudo -i
-
-# zsh
-pacman -S zsh
-
 # vim
-pacman -S vim
+sudo pacman -S vim
 
 # i3
-pacman -S i3 i3-gaps
+sudo pacman -S i3 i3-gaps
 
 # polybar
-pacman -S polybar
+sudo pacman -S polybar
 
 # feh
-pacman -S feh
+sudo pacman -S feh
 
 # variety
-pacman -S variety
+sudo pacman -S variety
 
 # compton
-pacman -S compton
+sudo pacman -S compton
 
 # dmenu
-pacman -S dmenu
+sudo pacman -S dmenu
 
 # fcitx
-pacman -S fcitx fcitx-im fcitx-configtool fcitx-sogoupinyin
+sudo pacman -S fcitx fcitx-im fcitx-configtool fcitx-sogoupinyin
+
+# ranger
+sudo pacman -S ranger

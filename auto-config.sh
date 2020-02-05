@@ -11,6 +11,7 @@ else
 	echo "Config zsh failed..."
 fi
 cd ..
+sudo chsh -s /bin/zsh
 
 # Vim
 cd vim
