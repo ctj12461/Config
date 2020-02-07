@@ -1,8 +1,8 @@
 #!/bin/bash
 # install.sh
 
-# vim
-sudo pacman -S vim
+# neovim
+sudo pacman -S neovim
 
 # i3
 sudo pacman -S i3 i3-gaps

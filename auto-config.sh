@@ -13,20 +13,16 @@ fi
 cd ..
 sudo chsh -s /bin/zsh
 
-# Vim
-cd vim
+# neovim
+cd neovim
 ./install.sh
 if [ $? -eq 0 ]
 then
-	echo "Config Vim successfully..."
+	echo "Config neovim successfully..."
 else
-	echo "Config Vim failed..."
+	echo "Config neovim failed..."
 fi
 cd ..
-
-# Git
-#git config --global user.email="ctj12461@163.com"
-git config --global user.name='ctj12461'
 
 # i3
 cd i3
