@@ -2,5 +2,6 @@
 # install.sh
 
 cd ..
-cp -r nvim ~/.config/nvim
+cp -r nvim/* ~/.config/nvim
+rm ~/.config/nvim/install.sh
 cd nvim

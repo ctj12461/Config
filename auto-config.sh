@@ -14,7 +14,7 @@ cd ..
 sudo chsh -s /bin/zsh
 
 # neovim
-cd neovim
+cd nvim
 ./install.sh
 if [ $? -eq 0 ]
 then
